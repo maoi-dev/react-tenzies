@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0B2434;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    max-width: 800px;
+    height: 90vh;
+    background-color: #F5F5F5;
+    border-radius: 1rem
+}
+
+.game-title {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: -0.03em;
+    color: #2B283A;
+    margin-bottom: .5rem;
+}
+
+.game-description {
+    width: 60%;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #4A4E74;
+    margin-bottom: 4vh;
+}
+
+.stats-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20vw;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    margin-bottom: 4vh;
+    color: #2B283A;
+}
+
+.stats-line {
+    display: flex;
+    flex-direction: row;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    margin-left: .35rem;
+    font-weight: 400;
+    color: #4A4E74;
+}
+
+.stats.rolls {
+    display: flex;
+    justify-content: center;
+    width: 1.25rem;
+}
+
+.stats.time div {
+    display: flex;
+    justify-content: center;
+    width: 2rem;
+}
+
+.dice-container {
+    display: grid;
+    grid-template: auto auto / repeat(5, 0fr);
+    gap: 2rem;
+    margin-bottom: 8vh;
+}
+
+.die-face {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    box-shadow: 0 .25rem .25rem rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    border-radius: .75rem;
+    cursor: pointer;
+}
+
+.is-held {
+    background-color: #59E391;
+}
+
+.die-num {
+    font-family: 'Karla';
+    font-size: 3rem;
+}
+
+.roll-button {
+    font-family: 'Karla';
+    font-size: 2rem;
+    border: none;
+    border-radius: .75rem;
+    padding-inline: 4rem;
+    padding-block: 1rem;
+    background-color: #5035FF;
+    color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.25);
+}
