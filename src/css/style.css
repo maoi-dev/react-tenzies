@@ -5,6 +5,7 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: #0B2434;
+    overflow: hidden;
 }
 
 main {
@@ -45,7 +46,7 @@ main {
 .stats-container {
     display: flex;
     flex-direction: row;
-    gap: 20vw;
+    gap: 10rem;
     font-family: 'Inter';
     font-weight: 700;
     font-size: 1.5rem;
